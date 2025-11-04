@@ -28,7 +28,7 @@ Through preprocessing and model tuning, overall accuracy improved from ~78% to ~
 🎯 Test Accuracy: **91.67%**  
 📉 The model performed exceptionally well for healthy machines (class 0) but had minor difficulty detecting faulty ones (class 1).  
 
-💡 Skills Used  
+## 💡 Skills Used  
 🐍 Python  
 🤖 Machine Learning  
 📊 Data Science  
