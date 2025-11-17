@@ -1,0 +1,50 @@
+# 🏭 Industrial Machine Maintenance Prediction
+
+## 📘 Overview
+This project focuses on predicting whether an industrial machine requires maintenance based on real-world numeric sensor data.  
+It is a **Binary Classification** problem where:
+
+- `1` = Machine needs maintenance  
+- `0` = Machine is operating normally  
+
+The dataset contains **654 rows** and **5 fully numeric features**, including temperature, pressure, vibration, humidity, and power metrics.  
+Missing values, noise, and realistic variability were included to simulate real industrial environments.
+
+## 🧠 Project Highlights
+- **Type:** Binary Classification  
+- **Language:** Python 🐍  
+- **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn  
+- **Dataset:** `industrial_observation.csv` — numeric industrial sensor readings  
+- **Data Type:** Entire dataset is numeric → preprocessing becomes simpler and faster
+
+## ⚙️ Workflow
+### ✔ Data Preprocessing
+- Handling missing values  
+- Scaling features using StandardScaler  
+- Cleaning noisy numeric fields  
+
+## 🚧 Challenges
+- Dataset contained noisy numeric sensor data → required additional cleaning  
+- Initial model slightly favored majority class  
+- After rebalancing and tuning, model became more stable  
+- Small accuracy drop occurred **but** recall for maintenance cases improved significantly
+
+## 📊 Results
+- Logistic Regression achieved **~80% accuracy**  
+- Balanced precision/recall across both classes  
+- Reliable detection of maintenance-needing machines  
+- Strong generalization on unseen data  
+
+## 💡 Skills Used
+- 🐍 Python  
+- 🤖 Machine Learning  
+- 📊 Data Analysis  
+- 📈 Data Visualization  
+
+## 📁 Files Included
+- `industrial_observation.ipynb` → Main notebook  
+- `factory_machine_health.csv` → Dataset  
+
+## 📬 Contact
+📧 Email: **amirhossin6825@gmail.com**  
+💬 Telegram: **@AmirHossin6825**
