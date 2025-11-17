@@ -14,7 +14,7 @@ Missing values, noise, and realistic variability were included to simulate real 
 - **Type:** Binary Classification  
 - **Language:** Python 🐍  
 - **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn  
-- **Dataset:** `industrial_observation.csv` — numeric industrial sensor readings  
+- **Dataset:** `factory_machine_health.csv` — numeric industrial sensor readings  
 - **Data Type:** Entire dataset is numeric → preprocessing becomes simpler and faster
 
 ## ⚙️ Workflow
@@ -25,15 +25,14 @@ Missing values, noise, and realistic variability were included to simulate real 
 
 ## 🚧 Challenges
 - Dataset contained noisy numeric sensor data → required additional cleaning  
-- Initial model slightly favored majority class  
-- After rebalancing and tuning, model became more stable  
-- Small accuracy drop occurred **but** recall for maintenance cases improved significantly
+- Initial models sometimes favored the majority class  
+- After tuning and proper preprocessing, Decision Tree achieved strong results for this task
 
 ## 📊 Results
-- Logistic Regression achieved **~80% accuracy**  
-- Balanced precision/recall across both classes  
-- Reliable detection of maintenance-needing machines  
-- Strong generalization on unseen data  
+- **Final Test Accuracy (Decision Tree): ~91%**  
+- Precision & Recall indicate robust detection of maintenance cases  
+- Confusion matrix and additional metrics are included in the notebook for detailed analysis  
+- Model generalizes well on held-out data — suitable for initial predictive maintenance deployment
 
 ## 💡 Skills Used
 - 🐍 Python  
@@ -42,8 +41,8 @@ Missing values, noise, and realistic variability were included to simulate real 
 - 📈 Data Visualization  
 
 ## 📁 Files Included
-- `industrial_observation.ipynb` → Main notebook  
-- `factory_machine_health.csv` → Dataset  
+- `industrial_observation.ipynb` → Main notebook (contains data processing, model training, and evaluation)  
+- `factory_machine_health.csv` → Dataset
 
 ## 📬 Contact
 📧 Email: **amirhossin6825@gmail.com**  
