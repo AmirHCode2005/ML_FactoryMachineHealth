@@ -1,4 +1,4 @@
-# 🏭 Industrial Machine Maintenance Prediction
+# 🏭 Industrial Machine Maintenance Prediction 
 
 ## 📘 Overview
 This project focuses on predicting whether an industrial machine requires maintenance based on real-world numeric sensor data.  
